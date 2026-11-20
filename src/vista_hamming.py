@@ -173,3 +173,10 @@ if __name__ == "__main__":
     raiz.title("Hamming(7,4)")
     VistaHamming(raiz).pack(fill="both", expand=True)
     raiz.mainloop()
+if __name__ == "__main__":
+    raiz = tk.Tk()
+    raiz.title("Hamming(7,4)")
+    import estilo
+    estilo.aplicar_estilo(raiz)
+    VistaHamming(raiz).pack(fill="both", expand=True)
+    raiz.mainloop()
